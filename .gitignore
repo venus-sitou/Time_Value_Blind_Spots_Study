@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Distribution / packaging
+build/
+dist/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Environment / secrets
+.env
+.env.local
+*.local
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+*.bak
+*.tmp
+
+# ===DATA — never commit original survey responses===
+*.csv
+*.xlsx
+*.xls
+*.sav
+*.dta
+*.rds
+
+# Allow ONLY the synthetic demo data
+!data/synthetic_compound_intuition_responses.csv
+
+# ===Generated outputs (kept locally)===
+outputs/figures/*.png
+outputs/*.json
+
+# ===SECURITY: includes sensitive REDACTED content. Do not commit
+# These files have been intentionally blanked and replaced with
+# a single REDACTED message because they originally contained
+# hardcoded study results or real data file paths.
+generate_report_v5.py
+generate_report_v6.py
+generate_report_v7.py
+generate_report_v8.py
+generate_report_v9.py
+generate_report_v10.py
+generate_report_v11.py
+generate_report_v12.py
+generate_report_v13.py
+generate_report_v14.py
+generate_report_v15.py
+generate_report_v16.py
+generate_report_v17.py
+generate_report_v18.py
+generate_report_v19.py
+generate_report_v21.py
+regen_figure5.py
+gen_all_figures.py
+v6_full_run.py
+v6_update.py
+
+# ===NOT-A-PYTHON-FILE-MARKER (test_write.txt accidentally created)===
+test_write.txt
